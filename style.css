@@ -1,5 +1,11 @@
 
+
+
+
+
 body{
+    /* margin: 0 auto; */
+    overflow: x;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -144,7 +150,7 @@ nav {
     font-weight: 500;
     height: 4rem;
     padding: 0 1rem;
-    width: 95%;
+    width: 100%;
 }    
 
 h1{
@@ -366,6 +372,7 @@ h1{
     width: 70%;
     list-style: none;
     padding: 1rem;
+    font-size: 0.7rem;
 }
 
 /* Seccion limpieza */
@@ -377,10 +384,9 @@ h1{
 .limpieza-list li{
   display: flex;
   flex-direction: column;
-  width: 150%;
-  /* margin: 1rem; */
+  width: 170%;
+  font-size: 0.6rem;
   margin-left: -4rem;
-  /* padding: 1rem; */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
