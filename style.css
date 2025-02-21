@@ -1,0 +1,393 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2d9dd;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #664646c2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 6rem;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: #f1c40f;
+}
+ .logo{
+   height: 9rem;
+   width: 9rem;
+}
+.header-img{
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+/* Seccion Predicacion */
+
+.predi{
+    display: flex;
+    justify-content: space-around;
+}
+.predi-list li{
+    display: flex;
+    /* flex-direction: column; */
+    width: 300%;
+    margin: 1rem;
+    margin-left: -8rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.predi-title{
+    text-align: center;
+}
+.predi-text{
+    text-align: center;
+}
+/* Seccion Discursos */
+
+.container-img-discursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.img-discursos{
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+.container-discursos{
+    width: 100%;
+    }
+
+.container-discursos h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.discursos-list{ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.discursos-list li{
+    width: 70%;
+    list-style: none;
+    padding: 1rem;
+}
+
+/* Seccion limpieza */
+
+.limpieza-list li{
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  margin: 1rem;
+  margin-left: -2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+footer{
+    background-color: #664646;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    margin-top: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* section 768px */
+
+@media screen and (min-width: 768px){
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #664646c2;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1rem;
+    width: 95%;
+}    
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #664646c2;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 4rem;
+}
+.nav-links a{
+    color: white;
+}
+
+.nav-links a:hover{
+    color: #f1c40f;
+}
+.nav-links .logo{
+   height: 6rem;
+   width: 6rem;
+}
+.header-img{
+  width: 100%;
+
+}
+
+/* Seccion Predicacion */
+
+/* .predi{
+    /* display: flex; */
+    /* justify-content: space-around; */
+/* } */
+/* .predi-list li{
+     display: flex; 
+     flex-direction: column; 
+    width: 130%;
+    margin: 1rem;
+    margin-left: -2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+} */
+
+/* Seccion Discursos */
+
+.container-img-discursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.img-discursos{
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+.container-discursos{
+    width: 100%;
+    }
+
+.container-discursos h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.discursos-list{ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.discursos-list li{
+    width: 70%;
+    list-style: none;
+    padding: 1rem;
+}
+
+/* Seccion limpieza */
+
+
+.header-img-limpieza{
+  width: 50%;
+}
+.limpieza-list li{
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  /* margin: 1rem; */
+  margin-left: -6rem;
+  /* padding: 1rem; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+}
+
+/* section 468px */
+
+@media screen and (max-width: 468px){
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #664646c2; */
+    color: white;
+    font-size: 5px;
+    height: 3rem;
+    width: 100%;
+}    
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #664646c2;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    height: 3rem;
+}
+.nav-links a{
+    color: white;
+}
+
+.nav-links a:hover{
+    color: #f1c40f;
+}
+.nav-links .logo{
+   height: 5rem;
+   width: 5rem;
+   margin-left: -2rem;
+}
+.header-img{
+  width: 100%;
+
+}
+
+/* Seccion Predicacion */
+.header-img-predi{
+    width: 50%;
+    /* height: 80%; */
+}
+.predi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .predi-list li{
+     display: flex; 
+     flex-direction: column; 
+    width: 140%;
+    font-size: 0.7rem;
+    margin-left: -4rem;
+    height: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+} 
+
+/* Seccion Discursos */
+
+.container-img-discursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.img-discursos{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+.container-discursos{
+    width: 100%;
+    }
+
+.container-discursos h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #664646;
+    margin: 1rem 0;
+    text-align: center;
+}
+.discursos-list{ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.discursos-list li{
+    width: 70%;
+    list-style: none;
+    padding: 1rem;
+}
+
+/* Seccion limpieza */
+
+
+.header-img-limpieza{
+  width: 50%;
+}
+.limpieza-list li{
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  /* margin: 1rem; */
+  margin-left: -4rem;
+  /* padding: 1rem; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.predi-title{
+    font-size: medium;
+}
+.predi-text{
+    font-size: small;}
+
+}
